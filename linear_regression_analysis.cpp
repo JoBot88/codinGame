@@ -18,7 +18,7 @@
 
     0 < t < 10000000
 
-    My solution implements a linear regression analysis 
+    Example
 
     Input                             Output
 
@@ -33,6 +33,8 @@
     7205 188017
     8105 211417
     9905 258991
+    
+    My solution implements a linear regression analysis 
 
 */
 
