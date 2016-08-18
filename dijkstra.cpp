@@ -149,7 +149,7 @@ bool dijkstra(const Network& network, Path& path, const Id startingPoint, map<Id
 
         taken_care_of.push_back(pivot);
         potential_pivots.erase(pivot);
-        // update la distances des voisins
+        // update the distance of the neighbors
         for(size_t i = 0; i < network[pivot].size(); i++){
             if(distances[network[pivot][i].first] > distances[pivot] + network[pivot][i].second){
                 distances[network[pivot][i].first] = distances[pivot] + network[pivot][i].second;
