@@ -1,1 +1,1 @@
-Some source codes of my school projects
+My Johnson's algorithm implementation
